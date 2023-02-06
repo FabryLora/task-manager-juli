@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap" rel="stylesheet">
+  <script type="module" src="storage.js"></script>
+  <script type="module" src="Item.js"></script>
+  <script type="module" src="List.js"></script>
+  <script type="module" src="script.js" async></script>
+  <title>Mission Console</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-title-container">
+      <a id="logo-link" href="#">
+        <h2>TASK MANAGER</h2>
+      </a>
+    </div>
+  </header>
+  <div class="newlist-container">
+    <label> <span class="new-list-title">NEW LIST</span> <input placeholder="Enter list title..."
+        class="new-list"></label>
+    <button id="button1" class="new-list-button">Add</button><span class="warning" style="color:slategray"> The example
+      will always
+      reload after
+      all lists are removed !</span>
+
+    <button id="button2" class="load-backup">Load backup</button>
+    <button id="button3" class="download-backup">Download backup</button>
+  </div>
+
+  <main>
+  </main>
+</body>
+
+</html>
